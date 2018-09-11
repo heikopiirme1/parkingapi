@@ -1,0 +1,19 @@
+<button id="adminBtn" class="button button2" [routerLink]="['/admin']">Admin</button>
+<div class="container">
+  <div class="row justify-content-md-center">
+    <img src="../../assets/Group 2@2x.png" alt="">
+  </div>
+  <div class="row justify-content-md-center">
+      <img class="vehRegistration" src="../../assets/vehRegistration.png" alt=""> <br>
+      <input #regNo type="text" 
+              placeholder="111AAA" 
+              maxlength="6" 
+              id="regInput"
+              (keyup.enter)="findTickets(regNo.value)" 
+              (input)="regNo.value=$event.target.value.toUpperCase()">  
+  </div>
+  <div class="row justify-content-md-center">
+      <button class="button button2" [routerLink]="['/tickets/' + regNo.value]">Otsi piletit</button>
+  </div>
+</div>
+

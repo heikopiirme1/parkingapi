@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-sm-4">
+      <div class="card">
+        <h5 class="card-header"><span class="fa fa-ticket"></span> Lisa uus pilet</h5>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><span class="ticketLabel">Parkimise aeg: </span><input id="timeInput" type="number"> tundi</li>
+            <li class="list-group-item"><span class="ticketLabel">Asukoht: </span><input id="locInput" type="text"></li>
+            <li class="list-group-item"><span class="ticketLabel">Reg. märk: </span><input id="regInput" type="text"></li>
+            <li class="list-group-item"><span class="ticketLabel">Email: </span><input id="emailInput" type="text"></li>
+            <li class="list-group-item"><span class="ticketLabel">Mobiil: </span><input id="mobInput" type="text"></li>
+          </ul>
+          <h2 id="hind">Hind: <input id="priceInput" type="number">€</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row justify-content-md-center">
+    <button class="button button2" (click)="goToTickets()"><span class="fa fa-arrow-left"></span></button>
+    <button class="button button4" (click)="newTicket()"><span class="fa fa-check"></span></button>
+</div>

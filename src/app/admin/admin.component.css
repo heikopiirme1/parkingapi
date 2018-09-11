@@ -1,0 +1,57 @@
+.adminMenu {
+    margin-top: 22.5%;
+}
+
+.button {
+    padding: 10px 40px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 32px;
+    width: 300px;
+}
+
+.button2 {
+    background-color: white; 
+    color: #3498DB; 
+    border: 1px solid #3498DB;
+}
+
+.button2:hover {
+    background-color: #3498DB;
+    color: white;
+}
+
+.button3 {
+    background-color: white; 
+    color: #2ecc71; 
+    border: 1px solid #2ecc71;
+}
+
+.button3:hover {
+    background-color: #2ecc71;
+    color: white;
+}
+
+#adminBtn {
+    padding: 10px 40px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 32px;
+    position: absolute;
+    margin: 10px;
+    top: 10px;
+    right: 10px;
+}

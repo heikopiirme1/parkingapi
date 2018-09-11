@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-header {
+    color: #FFF;
+    background-color: #3498DB;
+    border-radius: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.card {
+    border-radius: 0;
+    border: 1px solid rgb(52, 152, 219);
+    margin-top: 25px;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.ticketLabel {
+    color: #3498DB;
+    font-weight: 600;
+}
+
+#hind {
+    color: #3498DB;
+    padding: 10px;
+}
+
+.button {
+    padding: 10px 40px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 32px;
+    margin: 25px;
+}
+
+.button2 {
+    background-color: white; 
+    color: #3498DB; 
+    border: 1px solid #3498DB;
+}
+
+.button2:hover {
+    background-color: #3498DB;
+    color: white;
+}

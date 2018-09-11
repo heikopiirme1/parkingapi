@@ -1,0 +1,53 @@
+.container {
+    margin-top: 10%;
+}
+input {
+    text-align: center;
+    font-size: 30px;
+    width: 160px;
+    border: 0;
+    position: absolute;
+    margin-top: 3px;
+    text-transform: uppercase;
+    color: #404040;
+    font-weight: 600;
+}
+
+.vehRegistration {
+    width: 300px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+    cursor: pointer;
+    border-radius: 32px;
+    margin: 10px;
+}
+
+.button2 {
+    background-color: white; 
+    color: #3498DB; 
+    border: 1px solid #3498DB;
+}
+
+.button2:hover {
+    background-color: #3498DB;
+    color: white;
+}
+
+#adminBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
