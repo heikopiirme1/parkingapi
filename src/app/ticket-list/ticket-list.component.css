@@ -2,31 +2,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.card-header {
-    color: #FFF;
-    background-color: #3498DB;
-    border-radius: 0;
-    font-size: 0.9rem;
-    font-weight: 600;
-    vertical-align: middle;
-}
-
-.card {
-    border-radius: 0;
-    border: 1px solid rgb(52, 152, 219);
-    margin-top: 25px;
-    text-align: center;
-    transition-duration: 0.2s;
-}
-
-.card:hover {
-    cursor: pointer;
-}
-
-.card-body {
-    padding: 0;
-}
-
 .ticketLabel {
     color: #3498DB;
     font-weight: 600;
@@ -61,4 +36,13 @@ body {
 .button2:hover {
     background-color: #3498DB;
     color: white;
+}
+
+.card {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.col-md-12 {
+    margin-top: 10px;
 }

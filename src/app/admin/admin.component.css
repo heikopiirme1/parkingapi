@@ -55,3 +55,9 @@
     top: 10px;
     right: 10px;
 }
+
+#errMsg {
+    text-align: center;
+    color: red;
+    padding-top: 10px;
+}
