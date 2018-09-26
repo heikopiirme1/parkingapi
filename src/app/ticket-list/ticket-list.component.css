@@ -46,3 +46,12 @@ body {
 .col-md-12 {
     margin-top: 10px;
 }
+
+.listItem {
+    background-color: #FFF;
+    transition: 0.15s;
+}
+
+.listItem:hover {
+    border-bottom: 3px solid #3498DB;
+}
